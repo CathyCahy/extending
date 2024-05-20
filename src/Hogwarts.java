@@ -30,4 +30,11 @@ private int transgression;
         this.transgression = transgression;
     }
 
+    @Override
+    public String toString() {
+        return "Студент " +
+                 name +
+                ", сила магии " + magicPower +
+                ", трансгерессия " + transgression;
+    }
 }
